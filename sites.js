@@ -31,7 +31,9 @@ module.exports={
         // agent: null  
         },
     fields: {
-        title: 'h1.title-detail',
+        title: {
+            selector: 'h1.title-detail'
+        },
         datePublished: {
             selector: 'meta[itemprop="datePublished"]',
             prop: 'content'
