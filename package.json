@@ -1,0 +1,23 @@
+{
+  "name": "savetranslatedcontent",
+  "version": "1.0.0",
+  "description": "Crawler and translate contents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trungvv/SaveTranslatedcontent.git"
+  },
+  "author": "trungvv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trungvv/SaveTranslatedcontent/issues"
+  },
+  "homepage": "https://github.com/trungvv/SaveTranslatedcontent#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.6.0"
+  }
+}
