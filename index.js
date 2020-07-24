@@ -19,7 +19,6 @@ async function getScrapeList(){
             const postUrl = $(element).find('link').text();
             const scrapeResult = {postUrl, ...sites.fields};
             scrapeResults.push(scrapeResult);
-            // console.log(scrapeResult);
         })
         return scrapeResults;
     }catch(error){
@@ -50,7 +49,8 @@ async function main(){
     try{
         const scraps = await getScrapeList();
         const posts = await scrapePosts(scraps);
-        console.log(posts);
+        // console.log(scraps, "LENGTH: ", scraps.length);
+        console.log(posts[0]);
 
     } catch(error){
         console.log(error);
