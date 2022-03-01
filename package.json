@@ -22,6 +22,6 @@
     "node-fetch": "^2.6.0",
     "puppeteer": "^5.2.1",
     "request": "^2.88.2",
-    "requestretry": "^4.1.1"
+    "requestretry": "^7.0.0"
   }
 }
