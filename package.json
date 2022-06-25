@@ -19,7 +19,7 @@
   "dependencies": {
     "@google-cloud/translate": "^6.0.2",
     "cheerio": "^1.0.0-rc.3",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "puppeteer": "^5.2.1",
     "request": "^2.88.2",
     "requestretry": "^4.1.1"
